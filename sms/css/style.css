@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size:18px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+
+/* Admin Dashboard */
+.dashboard{
+    margin: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dashboard h1{
+    margin-bottom: 20px;
+}
+.dashboard ul li{
+    padding: 5px;
+}
+.nav2 button a{
+    color: white;
+}
+
+table{
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    border-collapse: collapse;
+}
+table tr, th, td {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+
+#sdetails tr, td{
+    border: 0;
+    padding: 5px 0;
+}
+#sdetails tr{
+    border: 1px solid black;
+}
+.searchResult td{
+    border: 2px solid black;
+}
+
+@media (max-width:500px){
+    *{
+        font-size:.8em;
+    }
+    table{
+        margin:auto;
+        color:red;
+    }
+    table tr, th, td{
+        padding:3px;
+        font-size:1.5em;
+    }
+    /* #sdetails table{
+        margin:auto;
+        color:red;
+    }
+    #sdetails table tr, th, td{
+        padding:3px;
+        font-size:1.5em;
+    } */
+    form label{
+        font-size:1rem;
+    }
+    #submit{
+        font-size:2em;
+        padding:.5em;
+    }
+}
